@@ -16,6 +16,8 @@ navbar:
   right:
   - href: https://github.com/nblock2
     icon: fa-github
+  - href: https://www.linkedin.com/in/natalie-block-730423223/
+    icon: fa-linkedin
 output_dir: docs
 output:
   html_document:
