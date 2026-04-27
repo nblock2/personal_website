@@ -68,7 +68,7 @@ Outside of research, I love to garden and bake. I also enjoy getting outside, he
   </figure>
 
   <figure class="photo-item">
-    <img src="images/dunes.jpeg" class="about-photo">
+    <img src="images/dunes.JPEG" class="about-photo">
     <figcaption>White Sands, NM</figcaption>
   </figure>
 
