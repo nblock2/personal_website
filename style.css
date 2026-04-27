@@ -30,7 +30,7 @@ a:hover {
 .profile-pic {
   width: 260px;
   height: 360px;
-  border-radius: 50%;
+  border-radius: 12px;
   object-fit: cover;
   object-position: center 20%;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -166,17 +166,22 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.about-list {
-  font-size: 18px;        /* adjust to taste */
-  line-height: 1.5;
-  margin-top: 10px;
-  margin-bottom: 20px;
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.about-list ul,
-.about-list li {
-  font-size: inherit;
-  margin-left: 20px;
+.skills-list {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #444;
+}
+
+.skills-list > li > strong {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
 }
 
 /* ------------------ SECTION DIVIDER ------------------ */

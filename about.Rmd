@@ -35,23 +35,36 @@ title: "A Little More About Me"
 
 <hr class="section-divider">
 
-## Skills
+<h2>Skills</h2>
 
-<div class="about-list">
-- Statistical Analysis 
-  - Regression models
-  - Survival analysis  
-- Machine Learning Techniques
-  - Neural networks
-  - Random forests
-  - Natural langauge processing
-- Data Visualization and Communication
-  - Shiny and Tablaeu Dashboards
-  - Github
-- Data cleaning
+<ul class="skills-list">
+  <li>
+    <strong>Statistical Analysis</strong>
+    <ul>
+      <li>Regression models</li>
+      <li>Survival analysis</li>
+    </ul>
+  </li>
 
-</div>
+  <li>
+    <strong>Machine Learning Techniques</strong>
+    <ul>
+      <li>Neural networks</li>
+      <li>Random forests</li>
+      <li>Natural language processing</li>
+    </ul>
+  </li>
 
+  <li>
+    <strong>Data Visualization & Communication</strong>
+    <ul>
+      <li>Shiny and Tableau dashboards</li>
+      <li>GitHub</li>
+    </ul>
+  </li>
+
+  <li><strong>Data Cleaning</strong></li>
+</ul>
 <hr class="section-divider">
 
 ## Outside of Work
@@ -68,7 +81,7 @@ Outside of research, I love to garden and bake. I also enjoy getting outside, he
   </figure>
 
   <figure class="photo-item">
-    <img src="images/dunes.jpeg" class="about-photo">
+    <img src="images/whitesands.jpeg" class="about-photo">
     <figcaption>White Sands, NM</figcaption>
   </figure>
 
