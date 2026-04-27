@@ -28,5 +28,5 @@
 </div>
 
 <div class="footer">
-© 2026 Natalie Block • Built with R Markdown
+© 2026 Natalie Block
 </div>
