@@ -1,9 +1,25 @@
 name: "my-website"
 navbar:
-  title: "My Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+  - text: Home
+    href: index.html
+    icon: fa-home
+  - text: About
+    href: about.html
+    icon: fa-book-open
+  - text: Projects
+    href: projects.html
+    icon: fa-computer
+  - text: Resume
+    href: files/resume.pdf
+    icon: fa-paperclip
+  right:
+  - href: https://github.com/nblock2
+    icon: fa-github
 output_dir: docs
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    includes: 
+      in_header: header.html

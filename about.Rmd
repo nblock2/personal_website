@@ -1,5 +1,79 @@
 ---
-title: "About This Website"
+title: "A Little More About Me"
 ---
 
-More about this website.
+
+## Background & Timeline
+
+<div class="timeline">
+
+### <span class="timeline-year">2024–2026</span>  
+#### Graduate Research Assistant, Emory University
+- Worked with large‑scale protected biological and population‑health datasets  
+- Focused on understanding how genetic mutations influence inflammatory responses  
+- Developed reproducible R scripts for collaborative research  
+- Gained experience applying and troubleshooting regression techniques, like detecting model collinearity
+- Strengthened skills in secure data handling and reproducible workflows 
+
+---
+
+### <span class="timeline-year">2024–2026</span>  
+#### M.S. in Biostatistics, Emory University
+- Coursework in classical statistics, machine learning, and data science tools
+- Developed strong foundations in R, Python, and SAS  
+- Completed thesis work with the Conneely Lab analyzing the effect of genetic mutations on inflammatory protein abundance 
+
+---
+
+### <span class="timeline-year">2021–2024</span>  
+#### Undergraduate Studies & Early Research
+- Graduated with a B.S. in Cell and Molecular Biology from Texas Tech University
+- First exposure to research and the importance of documentation for reproducibility
+- Fostered my interest in statistical techniques and experimental set-up
+
+</div>
+
+<hr class="section-divider">
+
+## Skills
+
+<div class="about-list">
+- Statistical Analysis 
+  - Regression models
+  - Survival analysis  
+- Machine Learning Techniques
+  - Neural networks
+  - Random forests
+  - Natural langauge processing
+- Data Visualization and Communication
+  - Shiny and Tablaeu Dashboards
+  - Github
+- Data cleaning
+
+</div>
+
+<hr class="section-divider">
+
+## Outside of Work
+
+<p class="about-text">
+Outside of research, I love to garden and bake. I also enjoy getting outside, here are some pictures from my most recent adventures!
+
+</p>
+
+<div class="photo-grid">
+  <figure class="photo-item">
+    <img src="images/alaska.jpeg" class="about-photo">
+    <figcaption>Hiking in Alaska</figcaption>
+  </figure>
+
+  <figure class="photo-item">
+    <img src="images/sand_dunes.jpeg" class="about-photo">
+    <figcaption>White Sands, NM</figcaption>
+  </figure>
+
+  <figure class="photo-item">
+    <img src="images/fishing.jpeg" class="about-photo">
+    <figcaption>Fishing in GA</figcaption>
+  </figure>
+</div>

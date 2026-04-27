@@ -1,0 +1,28 @@
+<div class="row">
+
+<div class="col-sm-6">
+<a href="https://urjfjd-natalie-block.shinyapps.io/CHIP_Inflammation_Dashboard/" class="project-link">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">CHIP Mutations and Inflammation Dashboard</h3>
+</div>
+<div class="panel-body">
+<p>A dashboard for displaying the results from my thesis work on CHIP mutations and their impact on inflammatory plasma protein abundance.
+</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-sm-6">
+<a href="https://github.com/nblock2/cat_person_ml_techniques" class="project-link">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Are you a cat person? ML comparison</h3>
+</div>
+<div class="panel-body">
+<p>Work in progress. Goal of this project is to compare different machine learning methods by using them to predict if someone likes cats or not. Admittedly, this may be a biased project (I am a cat person).</p>
+</div>
+</div>
+</a>
+</div>
+</div>

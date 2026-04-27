@@ -1,0 +1,229 @@
+/* Default link color */
+a {
+  color: #2C7BE5;  /* pick your favorite color for links */
+  text-decoration: none;
+}
+
+/* Hover state */
+a:hover {
+  color: #1A5BB8;  /* pick your favorite color for links when mouse hovers */
+  text-decoration: underline;
+}
+
+/*setting style for home page*/
+
+/* ------------------ HERO SECTION ------------------ */
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hero-left {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 260px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero-right {
+  flex: 2;
+}
+
+.home-name {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.home-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+
+/* ------------------ SECTIONS ------------------ */
+
+.section-divider {
+  margin: 50px 0 30px 0;
+  border: none;
+  border-top: 2px solid #e5e5e5;
+}
+
+.about-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 800px;
+}
+
+/* ------------------ FOOTER ------------------ */
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* ------------------ MOBILE ------------------ */
+
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ------------------ TIMELINE LAYOUT ------------------ */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+/* Vertical line — now pushed down so it never enters the header */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 60px;          /* <<< THIS is the fix — pushes line below the title */
+  bottom: 0;
+  width: 3px;
+  background-color: #C8A2C8;
+  border-radius: 2px;
+}
+
+/* Year label */
+.timeline-year {
+  font-weight: 700;
+  font-size: 18px;
+  color: #7A5A7A;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Dot marker */
+.timeline-year::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  background-color: #C8A2C8;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #C8A2C8;
+}
+
+/* Spacing between entries */
+.timeline > div,
+.timeline > section,
+.timeline > article {
+  margin-bottom: 40px;
+}
+
+/* Headings inside timeline */
+.timeline h3,
+.timeline h4,
+.timeline h5 {
+  margin-top: 1;
+}
+/* ------------------ ABOUT PAGE TEXT ------------------ */
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-bottom: 25px;
+}
+
+.about-list {
+  font-size: 18px;        /* adjust to taste */
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-list ul,
+.about-list li {
+  font-size: inherit;
+  margin-left: 20px;
+}
+
+/* ------------------ SECTION DIVIDER ------------------ */
+
+.section-divider {
+  margin: 50px 0 30px 0;
+  border: none;
+  border-top: 2px solid #e5e5e5;
+}
+
+/* ------------------ MOBILE ------------------ */
+
+@media (max-width: 700px) {
+  .timeline {
+    border-left: 2px solid #C8A2C8;
+    padding-left: 20px;
+  }
+
+  .timeline-year::before {
+    left: -11px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.photo-item {
+  width: 30%;
+  text-align: center;
+}
+
+.about-photo {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.photo-item figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
