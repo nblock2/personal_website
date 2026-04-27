@@ -193,15 +193,29 @@ h2 {
 }
 
 /* MOBILE */
-
 @media (max-width: 700px) {
+
   .timeline {
-    border-left: 2px solid #C8A2C8;
-    padding-left: 20px;
+    position: relative;
+    padding-left: 25px;
+    margin-left: 5px;
+    margin-top: 30px; /* gives breathing room under the heading */
+  }
+
+  /* Mobile vertical line */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 80px;   /* <-- this is the key fix */
+    bottom: 0;
+    width: 2px;
+    background-color: #C8A2C8;
+    border-radius: 2px;
   }
 
   .timeline-year::before {
-    left: -11px;
+    left: -14px;
     width: 10px;
     height: 10px;
   }
