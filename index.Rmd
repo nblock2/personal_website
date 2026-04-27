@@ -1,7 +1,6 @@
 ---
-title: " "
+title: "Natalie Block"
 output: html_document
-css: style.css
 ---
 
 <div class="home">
@@ -13,7 +12,6 @@ css: style.css
 </div>
 
 <div class="home-right">
-<h1 class="home-name">Natalie Block</h1>
 <div class="home-subtitle">Biostatistician • Data Scientist</div>
 
 <p class="intro-text">

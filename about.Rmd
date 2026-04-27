@@ -3,7 +3,7 @@ title: "A Little More About Me"
 ---
 
 
-## Background & Timeline
+## Background
 
 <div class="timeline">
 

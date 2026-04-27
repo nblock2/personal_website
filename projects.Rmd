@@ -1,3 +1,8 @@
+---
+title: "Projects"
+output: html_document
+---
+
 <div class="row">
 
 <div class="col-sm-6">
