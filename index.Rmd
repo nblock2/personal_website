@@ -4,15 +4,15 @@ output: html_document
 css: style.css
 ---
 
-<div class="hero">
+<div class="home">
 
-  <div class="hero-left">
+  <div class="home-left">
 ```{r, echo=FALSE}
   htmltools::img(src = "images/profile.jpg", class = "profile-pic")
 ```
 </div>
 
-<div class="hero-right">
+<div class="home-right">
 <h1 class="home-name">Natalie Block</h1>
 <div class="home-subtitle">Biostatistician • Data Scientist</div>
 
@@ -26,9 +26,9 @@ I’m a biostatistician experienced in working with large‑scale biological and
 
 <hr class="section-divider">
 
-<div class="about-subtitle">About Me</div>
+<div class="profile-subtitle">About Me</div>
 
-<p class="about-text">
+<p class="profile-text">
 I work with classical statistical methods and machine learning techniques in R, Python, and SAS. Over the past two years, my work has focused on understanding how genetic mutations influence inflammatory responses. This has given me extensive experience in R programming, regression modeling, and the responsible use of protected data. Outside of work, I enjoy spending time outdoors with my partner, Alex, and our cat, Giovanni, and experimenting with new recipes in the kitchen!
 </p>
 

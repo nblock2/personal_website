@@ -12,9 +12,9 @@ a:hover {
 
 /*setting style for home page*/
 
-/* ------------------ HERO SECTION ------------------ */
+/* HOME SECTION */
 
-.hero {
+.home {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -22,7 +22,7 @@ a:hover {
   margin-top: 40px;
 }
 
-.hero-left {
+.home-left {
   flex: 1;
   text-align: center;
 }
@@ -36,7 +36,7 @@ a:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.hero-right {
+.home-right {
   flex: 2;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 }
 
 
-/* ------------------ SECTIONS ------------------ */
+/* SECTIONS */
 
 .section-divider {
   margin: 50px 0 30px 0;
@@ -68,20 +68,20 @@ a:hover {
   border-top: 2px solid #e5e5e5;
 }
 
-.about-subtitle {
+.profile-subtitle {
   font-size: 30px;
   font-weight: 600;
   color: #555;
   margin-bottom: 20px;
 }
 
-.about-text {
+.profile-text {
   font-size: 18px;
   line-height: 1.7;
   max-width: 800px;
 }
 
-/* ------------------ FOOTER ------------------ */
+/* FOOTER */
 
 .footer {
   text-align: center;
@@ -91,16 +91,16 @@ a:hover {
   margin-bottom: 20px;
 }
 
-/* ------------------ MOBILE ------------------ */
+/* MOBILE */
 
 @media (max-width: 700px) {
-  .hero {
+  .home {
     flex-direction: column;
     text-align: center;
   }
 }
 
-/* ------------------ TIMELINE LAYOUT ------------------ */
+/* TIMELINE LAYOUT */
 .timeline {
   position: relative;
   padding-left: 30px;
@@ -108,12 +108,12 @@ a:hover {
   margin-top: 30px;
 }
 
-/* Vertical line — now pushed down so it never enters the header */
+/* Vertical line */
 .timeline::before {
   content: "";
   position: absolute;
   left: 6px;
-  top: 60px;          /* <<< THIS is the fix — pushes line below the title */
+  top: 60px;
   bottom: 0;
   width: 3px;
   background-color: #C8A2C8;
@@ -157,7 +157,7 @@ a:hover {
 .timeline h5 {
   margin-top: 1;
 }
-/* ------------------ ABOUT PAGE TEXT ------------------ */
+/* ABOUT PAGE TEXT */
 
 .about-text {
   font-size: 18px;
@@ -184,7 +184,7 @@ h2 {
   color: #333;
 }
 
-/* ------------------ SECTION DIVIDER ------------------ */
+/* SECTION DIVIDER */
 
 .section-divider {
   margin: 50px 0 30px 0;
@@ -192,7 +192,7 @@ h2 {
   border-top: 2px solid #e5e5e5;
 }
 
-/* ------------------ MOBILE ------------------ */
+/* MOBILE */
 
 @media (max-width: 700px) {
   .timeline {
