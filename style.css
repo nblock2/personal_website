@@ -199,7 +199,7 @@ h2 {
     position: relative;
     padding-left: 25px;
     margin-left: 5px;
-    margin-top: 30px; /* gives breathing room under the heading */
+    margin-top: 30px;
   }
 
   /* Mobile vertical line */
@@ -207,7 +207,7 @@ h2 {
     content: "";
     position: absolute;
     left: 4px;
-    top: 80px;   /* <-- this is the key fix */
+    top: 80px;
     bottom: 0;
     width: 2px;
     background-color: #C8A2C8;
